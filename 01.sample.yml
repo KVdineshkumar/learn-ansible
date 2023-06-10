@@ -1,0 +1,6 @@
+- name: DemoPlay Book
+  hosts: all
+  tasks:
+    -name: Print hello world
+    ansible.builtin.debug:
+      msg: het mey rajaha
